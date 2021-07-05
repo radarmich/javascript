@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "image/oko.png">
+    <title>Moja strona tytułowa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link href= "css/link.css" rel="stylesheet">    
+    <link href= "css/list.css" rel="stylesheet">   
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body class="all">
+    <header>
+        <h1 class="header">Radek Michalak</h1>
+    </header>
+    <nav>
+        <ul class=navList>
+            <li><a class="link" href="#main">Coś o mnie</a></li>
+            <li><a class="link" href="#table">Ulubione utwory</a></li>
+            <li><a class="link" href="#list">ulubione filmy</a></li>
+        </ul>
+    </nav>
+    <section class="section1">
+        <image width="350" height="250" src="https://iv.pl/images/a78aa22e8293cefe4df3d67f3d326068.jpg"
+            alt="Radek Michalak" class="image"></image>
+        <button class="button">usuń zdjęcie</button>
+    </section>
+    <main class="main" id="main">
+        <h1>Coś o mnie</h1>
+        <article class="article">
+
+            <p> Cześć!!!<br> Mam 36 lat i jestem zodiakalnym skorpionem, interesuje się astronomią, astrofizyką i filmem
+                lubię słuchać muzyki i majsterkować. Do podjęcia próby nauczenia się programowania zachęciła mnie moja
+                wyjątkowa
+                dziewczyna. W życiu robiłem wiele różnych rzeczy, na dzień dzisiejszy nie zajmuję się niczym ciekawym,
+                dlatego
+                liczę na to,że programowanie to zmieni. </p>
+        </article>
+        <h2>Przykłady zainteresowań</h2>
+        <h3>Muzyka</h3>
+        <table class="table" id="table">
+            <caption class="caption">Ulubione utwory</caption>
+            <tr class="tableRow">
+                <th class="cells" scope="col">gatunek</th>
+                <th class="cells" scope="col">wykonawca</th>
+                <th class="cells" scope="col">utwór</th>
+            </tr>
+            <tr class="tableRow">
+                <th class="cells" scope="row">rock</th>
+                <td class="cells">Metallica<br>Guns&Roses</td>
+                <td class="cells">Unforgiven<br>Until It Sleeps<br>Nowember Rain<br>Patience</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="cells" scope="row">jazz</th>
+                <td class="cells">Louis Aemstrong<br>Ibrahim Maalouf</td>
+                <td class="cells">Wonderfull life<br>We Have All The Time In The World<br> Beirut<br> Maeva in the
+                    Wonderland
+                </td>
+            </tr>
+            <tr class="tableRow">
+                <th class="cells" scope="row">pop</th>
+                <td class="cells">Imagine Dragons<br>Coldplay</td>
+                <td class="cells">Radioactive<br>Whatever It Takes<br>Paradaise<br>Magic</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="cells" scope="row">electronic</th>
+                <td class="cells">ATB<br>Armin Van Bureen</td>
+                <td class="cells">Extasy<br>You're Not Alone<br>Unforgetable<br>Mirage</td>
+            </tr>
+        </table>
+
+        <aside>
+            <nav class=nav2>
+                <a class="link" rel="noreferrer noopener" target="_blank"
+                    href="https://www.rmfclassic.pl/encyklopedia/jazz.html">jazz:</a>
+                <a class="link" rel="noreferrer noopener" target="_blank"
+                    href="https://www.youtube.com/watch?v=wpg8jBFaj3c">Beirut</a>
+                <a class="link" rel="noreferrer noopener" target="_blank"
+                    href="https://www.rmfclassic.pl/encyklopedia/rockowa-muzyka.html">rock:</a>
+                <a class="link" rel="noreferrer noopener" target="_blank"
+                    href="https://www.youtube.com/watch?v=DDGhKS6bSAE">Unforgiven</a>
+
+            </nav>
+        </aside>
+        <h4>Film</h4>
+        <ol type="I">
+            <li class=listItem id="list">
+                Q.Tarantino
+                <ul class=list>
+                    <li class=listItem>Pulp Fiction</li>
+                    <li class=listItem>Wściekłe Psy</li>
+                </ul>
+            </li>
+            <li class=listItem>
+                S.Kubrick
+                <ul class=list>
+                    <li class=listItem>Lot Nad Kukułczym Gniazdem</li>
+                    <li class=listItem>Odyseja Kosmiczna 2010</li>
+                </ul>
+            </li>
+            <li class=listItem>
+                M.Scorsese
+                <ul class=list>
+                    <li class=listItem>Wilk Z Wall Street</li>
+                    <li class=listItem>Gangi Nowego Yorku</li>
+                </ul>
+            </li>
+        </ol>
+    </main>
+
+    <footer class=footer>
+        <p>original by R.M.</p>
+    </footer>
+</body>
+
+</html>

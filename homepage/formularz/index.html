@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="vieport" content="width=device-width , initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="container">
+    <form action="https://postman-echo.com/post" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Formularz</legend>
+            <p>
+                <label > <span class= "formText">Imię</span> <input name="name" placeholder="Wpisz imię" autofocus class= "form"></label>
+            </p>
+            <p>
+                <label><span class= "formText">Nazwisko</span> <input name="surname" class= "form"></label>
+            </p>
+        </fieldset>
+        <p>
+            <label>
+                Opis:
+                <textarea name="description">Wypełnij</textarea>
+            </label>
+        </p>
+        <p>
+            <button>Wyślij</button>
+            <button type="reset">Wyczyść formularz</button>
+        </p>
+
+    </form>
+</body>
+
+</html>
