@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.article {
+    color: rgb(84, 105, 66);
+    font-family: "Zilla Slab", serif;
+    font-style: italic;
+    font-size: 25px;
+}

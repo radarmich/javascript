@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    color: rgb(14, 165, 14);
+    padding-left: 50%;
+}
+
+.section1 {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.image {
+    border: outset 5px rgb(16, 67, 231);
+    border-radius: 16%;
+    width: 100%;
+}
+
+.button {
+    height: 25px;
+    color: rgb(247, 244, 243);
+    background-color: rgb(16, 67, 231);
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main {
+    font-weight: 800;
+    line-height: 2;
+}
+
+.all {
+    background-color: rgb(192, 185, 255);
+    max-width: 1000px;
+    margin: 20px 50px;
+}
+
+.navList{
+    list-style: none;
+    padding-left: 0px;
+    border-bottom: 1px solid blue;
+}
+
+.nav2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.important {
+    color: rgb(15, 42, 194);
+}
+
+.table {
+    border-collapse: collapse;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 20%;
+}
+
+.caption {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tableRow:hover {
+    background-color: rgb(24, 194, 80);
+}
+
+.cells {
+    border: 8px groove rgb(5, 143, 101);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color:rgb(54, 124, 216);
+    padding: 25px;
+
+}

@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+  box-sizing: inherits ;
+}
+.body {
+  color:rgb(15, 17, 17);
+  
+}
+.green {
+    color:rgb(0, 162, 255);
+    background-color: rgb(38, 180, 50);
+}

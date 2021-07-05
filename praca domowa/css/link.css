@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.link {
+    color: rgb(24, 194, 80);
+}
+
+.link:visited {
+    color: blue;
+}
+
+.link:focus {
+    outline: 3px inherit green;
+}
+
+.link:hover {
+    color: indigo;
+}
